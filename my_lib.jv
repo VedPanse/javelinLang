@@ -1,0 +1,3 @@
+#CONFIG style/trial.cfg
+
+!println -> "javelinLang", id="javelinLang"

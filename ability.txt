@@ -1,0 +1,16 @@
+#CONFIG style/config.cfg
+
+greet: str = "Hello World"
+my_age: int = 19
+
+def sum(a: int, b: int) -> int:
+    return a + b
+
+!println->f"Hello" ,id="greet_id"
+!println -> f"My age is {my_age}", id="declare_my_age"
+
+def get_sum(numOne: int, numTwo: int) -> int:
+	return numOne + numTwo
+
+!println -> get_sum(1, 2), id="the_sum"  // trial
+!println -> f"UCSD faltu", id="fact" // this is very accurate
